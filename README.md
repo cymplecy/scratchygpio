@@ -1,24 +1,23 @@
-# ScratchGPIO : a Python-Scratch handler for Raspberry Pi
+# ScratchyGPIO : a Python3-Scratch 1.4 handler for Raspberry Pi
 
+It replaces the original Python 2 version and is a fork of that project
 
 This is the source of a Raspberry Pi GPIO handler for Scratch.
-It acts as a go-between between Scratch and the GPIO pins and lets you use simple Scratch broadcasts such as "Pin11On"
-or "AllOff" to allow you to control LEDs
+It acts as a go-between between the original Scratch 1.4 and the GPIO pins and lets you use simple Scratch broadcasts such as "Pin11On"
+or "AllOff" to allow you to control electronic devices such as LEDs attached to the pins
 
-It understands a number of variable names usch as "set Power11 to 50" which will effectively set Pin11
+It understands a number of variable names such as Power e.g. "set Power11 to 50" which will effectively set Pin11
 to half power "set Power12 to 100" will set Pin12 to full power.
 
-it also has support for up to three, cheap, 5 wire unipolar stepper motors and cheap Ultrasonic boards which makes it
-very acheivable to program up maze solving robots using Scratch!
+It also has support for cheap, 5 wire stepper motors and cheap 3.3V ultrasonic sensor boards
 
-The code is being activley developed but the code in this folder is considered stable.  The dev branch contains my day to day
+The code is being actively developed but the code in this folder is considered stable.  The dev branch contains my day to day
 changes.
-
 
 ## Usage
 
-I maintain full download, install and usuage instructions in this blog
-http://cymplecy.wordpress.com/scratchgpio
+I maintain full download, install and usage instructions in this blog
+https://simplesi.net/scratchgpio/ - please follow the updated instructions to install ScratchyGPIO instead of the old ScratchGPIO 
 
 The code and installer in this folder are the same version as the ones linked to in the blog.
 
